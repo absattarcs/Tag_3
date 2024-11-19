@@ -1,0 +1,54 @@
+@font-face{
+    font-family: "Sour_gummy_Bold";
+    src: url("../../fonts/Sour_Gummy/SourGummy-Bold.ttf");
+}
+@font-face{
+    font-family: "Sour_gummy_light";
+    src: url("../../fonts/Sour_Gummy/SourGummy-Light.ttf");
+}
+@font-face{
+    font-family: "Sour_gummy_lightitalic";
+    src: url("../../fonts/Sour_Gummy/SourGummy-LightItalic.ttf");
+}
+@font-face{
+    font-family: "Sour_gummy_Medium";
+    src: url("../../fonts/Sour_Gummy/SourGummy-Medium.ttf");
+}
+@font-face{
+    font-family: "Sour_gummy_Regular";
+    src: url("../../fonts/Sour_Gummy/SourGummy-Regular.ttf");
+}
+* {
+    text-align: center;
+    color:#5C3CDC;
+    padding:0 30px 10px 30px;
+}
+h1{
+    background-color: #5C3CDC;
+    color:#4FEBAC;
+    border-radius: 3px;
+    font-family: "Sour_gummy_Bold";
+}
+p:nth-of-type(1){
+    font-family: "Sour_gummy_light";
+    background-color: #4FEBAC;
+
+}
+p:nth-of-type(2){
+    font-family: "Sour_gummy_lightitalic";
+
+}
+p:nth-of-type(3){
+    font-family: "Sour_gummy_Regular";
+    background-color: #4FEBAC;
+    color: aliceblue;
+}
+p:nth-of-type(4){
+    font-family: "Sour_gummy_Bold";
+}
+p:nth-of-type(5){
+    font-family: "Sour_gummy_lightitalic";
+    background-color: #5C3CDC;
+    color:#4FEBAC;
+    border-radius: 5px;
+}
